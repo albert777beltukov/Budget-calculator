@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/invest.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class ='calcName'> 
+    <p class="mainName">
+      Калькулятор личного бюджета
+    </p>
+<img src="img/calc.png" alt="calc">  
+  </div>
+  
+ 
+  <div class="wrapper">
+
+  
+    <div class="blockInputs">
+      <p  class="nameBlock">Доходы за месяц:</p>
+      <span id = "total-income">0</span>
+      <input type="number" placeholder = "Работа №1" class="input" id = "job№1-income">
+      <input type="number" placeholder = "Работа №2" class="input" id = "job№2-income">
+      <input type="number" placeholder = "Инвестиции" class="input" id = "invest-income">
+      <input type="number" placeholder = "Недвижимость" class="input" id = "property-income">
+      <input type="number" placeholder = "Прочее" class="input" id = "other-income">
+    </div> 
+
+    <div class="blockInputs">
+      <p  class="nameBlock">Расходы за месяц:</p>
+      <span id = "total-spend">0</span>
+      <input type="number" placeholder = "ЖКХ" class="input" id = "rent-spend">
+      <input type="number" placeholder = "Еда" class="input" id = "eat-spend">
+      <input type="number" placeholder = "Транспорт" class="input" id = "transport-spend">
+      <input type="number" placeholder = "Одежда" class="input" id = "things-spend">
+      <input type="number" placeholder = "Прочее" class="input" id = "other-spend">
+   
+    </div>
+
+    <div class="blockInputs resultInputs">
+      <p  >Накопления за месяц:</p>
+     <span id = "savings-month">0</span>
+      <p  >Накопления за год:</p>
+      <span id = "savings-year">0</span>
+      
+      
+   
+    </div>
+    
+
+    </div>
+    
+   
+  
+  </div>
+  
+</body>
+<script src="js/invest.js"></script>
+</html>
